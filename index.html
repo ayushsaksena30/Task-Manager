@@ -5,23 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task_Manager</title>
     <nav>
-        <div class="intro">Good evening,<span class="name"> Ayush &hearts; </span> <br>
-        <span class="todaydate">It's Monday, 26 August 2024</span> </div>
-       
-       <div class="close"><img src="close-window.png"></div> 
+        <div class="intro"><span class="name">Good evening, Ayush &hearts; </span> <br>
+            <span class="todaydate">It's Monday, 26 August 2024</span>
+        </div>
+        <div id="close" class="close"><img src="close-window.png" alt="Close"></div> 
     </nav>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="nav"><a href="index.html">Task</a>
-        <a href="about.html">Appointments</a></div>
-   
-    <div class="high"><h1 class="high">Important</h1><div class="plus"><img src="plus (1).png"></div></button>
-        <input type="checkbox"></input><br>
+    <div class="nav">
+        <a href="index.html">Task</a>
+        <a href="about.html">Appointments</a>
     </div>
-    <div class="low"><h1 class="low">Regular</h1><div class="plus"><img src="plus (1).png"></div></button>
-        <input type="checkbox"></input><br>
+
+    <div id="important-tasks" class="high">
+        <h1>Important</h1>
+        <div class="plus" id="add-important-task"><img src="plus (1).png" alt="Add Task"></div>
     </div>
-<script src="script.js"></script>
+
+    <div id="regular-tasks" class="low">
+        <h1>Regular</h1>
+        <div class="plus" id="add-regular-task"><img src="plus (1).png" alt="Add Task"></div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
