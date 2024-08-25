@@ -1,0 +1,47 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.close img {
+    width: 1.5em; 
+    height: auto;
+}
+
+.high, .low {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.high h1, .low h1 {
+    flex-grow: 1;
+    font-size: 1.5em; 
+    margin: 0;
+}
+
+.plus img {
+    width: 1em; 
+    height: auto;
+    margin-left: 10px; 
+}
+
+
+
