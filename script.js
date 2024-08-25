@@ -30,3 +30,4 @@ function addTask(taskContainerId, taskType) {
 
     document.getElementById(taskContainerId).appendChild(newTaskDiv);
 }
+

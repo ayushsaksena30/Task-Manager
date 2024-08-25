@@ -11,14 +11,38 @@ nav {
     padding: 10px;
 }
 
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(237, 237, 237); /* Light background color */
+    border-bottom: 1px solid #ddd; /* Border below the tabs */
+}
+
 .nav a {
-    color: black;
-    margin: 0 15px;
+    color: rgb(97, 97, 97);
+    padding: 10px 20px;
     text-decoration: none;
     font-size: 1.2em;
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background and shadow */
+}
+
+.nav a.active {
+    color: black;
+    background-color: #ffffff; /* Change background for active */
+    border: 1px solid rgb(118, 113, 113); /* Border for active */
+    box-shadow: 0px 0px 5px rgb(164, 159, 159); /* Shadow for active */
+    transform: translateY(-2px); /* Slight lift for active */
+}
+
+.nav a:not(.active):hover {
+    color: black;
+    background-color: #f0f0f0; /* Change background on hover */
+    box-shadow: 0px 0px 5px rgb(200, 200, 200); /* Shadow on hover */
 }
 
 .close img {
     width: 1.5em; 
     height: auto;
+    align-self:right;
 }
