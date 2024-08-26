@@ -46,3 +46,12 @@ nav {
     height: auto;
     align-self:right;
 }
+.plus {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.plus img {
+    width: 1em;
+    height: auto;
+}
