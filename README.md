@@ -2,7 +2,7 @@
 
 ## Overview
 
-*TaskManagerr* is a lightweight and intuitive Google Chrome extension designed to help you manage your daily tasks and appointments efficiently. Whether you need to keep track of your to-do list or schedule important appointments, TaskMaster provides a simple and user-friendly interface to stay organized.
+*TaskManagerr* is a lightweight and intuitive Google Chrome extension designed to help you manage your daily tasks and appointments efficiently. Whether you need to keep track of your to-do list or schedule important appointments, TaskManager provides a simple and user-friendly interface to stay organized.
 
 ## Features
 
@@ -49,10 +49,6 @@
    - Navigate to the "Appointments" tab within the extension.
    - Enter the appointment details and select the date from the date picker.
    - Click "Save" to add the appointment to your schedule.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
 
 Thank you for using TaskManager! Stay organized and productive!
