@@ -44,28 +44,42 @@ nav {
 .close img {
     width: 1.5em; 
     height: auto;
-    
 }
 
 .high, .low {
-    display: flex;
-    align-items: center;
     margin: 20px;
 }
 
-.high h1, .low h1 {
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
     flex-grow: 1;
     font-size: 1.5em; 
     margin: 0;
 }
 
-.plus img {
-    width: 1em; 
-    height: auto;
-    margin-left: 10px; 
+.plus {
+    cursor: pointer;
+    margin-left: 10px;
 }
 
-.parent-nav {
-    background-color: rgb(237, 237, 237);
-    padding: 10px;
+.plus img {
+    width: 1em;
+    height: auto;
+}
+
+.task-list {
+    display: none; /* Initially hidden */
+    margin-top: 10px; /* Space between text and checkboxes */
+}
+
+.task-list.show {
+    display: block; /* Show when plus sign is clicked */
+}
+
+.task-list .task-item {
+    margin-bottom: 10px; /* Space between checkboxes */
 }
